@@ -6,7 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "test": "next lint",
     "prepare": "husky"
   },
   "dependencies": {
@@ -15,9 +15,10 @@
     "@tanstack/react-table": "^8.20.5",
     "axios": "^1.7.7",
     "dotenv": "^16.4.5",
-    "next": "15.0.1",
+"next": "^13.5.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.2"
   },
   "devDependencies": {
     "@types/node": "^20",
